@@ -1,0 +1,101 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-size: 16px;
+    color:beige;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container{
+    max-width: 700px;
+    height: auto;
+    background-color: rgb(22, 22, 63);
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #formSubmission{
+    margin: 10px;
+    
+  }
+  
+  .container .dom-form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    color:wheat;
+    border:2px solid black;
+  }
+  
+  .container .dom-form select{
+   width: 100%;
+   height: 30px;
+   font-size: 16px;
+   text-align: center;
+   background-color: grey;
+   color: whitesmoke;
+   border: 2px solid wheat;
+   border-radius: 10px;
+  }
+  .container .dom-form button{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    font-weight:600;
+    background-color:grey;
+    color: whitesmoke;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+   }
+   
+  .container .dom-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  
+  
+  .container .dom-form button:hover{
+  opacity: 85%;
+  }
+  
+  .container .dom-form{
+    margin: 0px 50px;
+  }
+  
+  .container table{
+    margin: 10px auto;
+  }
+  
+  table th,td{
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  p{
+    text-align: center;
+  }
+  textarea{
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+    background-color: #d0e2bc;
+  
+  }
